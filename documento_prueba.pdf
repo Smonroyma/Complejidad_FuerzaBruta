@@ -1,0 +1,61 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1502 >>
+stream
+BT
+/F1 12 Tf
+50 750 Td
+16 TL
+(DOCUMENTO DE PRUEBA - COMPLEJIDAD ALGORITMICA) Tj T*
+() Tj T*
+(1. Introduccion a la Busqueda de Patrones) Tj T*
+(Un algoritmo de busqueda de cadenas permite encontrar una palabra o patron) Tj T*
+(dentro de un texto mas grande. En este proyecto probamos el algoritmo KMP) Tj T*
+(y el algoritmo Boyer-Moore para comparar su funcionamiento.) Tj T*
+() Tj T*
+(2. Prueba de Mayusculas y Minusculas \(Case Sensitive\)) Tj T*
+(La palabra Algoritmo aparece con inicial mayuscula aqui: Algoritmo.) Tj T*
+(Tambien aparece en minuscula como algoritmo en varias partes del texto,) Tj T*
+(e incluso totalmente en mayusculas: ALGORITMO.) Tj T*
+(Si activas Case Sensitive y buscas algoritmo, solo encontraras las minusculas.) Tj T*
+(Si desactivas Case Sensitive, encontraras Algoritmo, algoritmo y ALGORITMO.) Tj T*
+() Tj T*
+(3. Algoritmo KMP \(Knuth-Morris-Pratt\)) Tj T*
+(El algoritmo KMP utiliza un arreglo LPS para evitar retroceder en el texto.) Tj T*
+(KMP es muy eficiente cuando el patron tiene prefijos repetidos como ABABACA.) Tj T*
+(Buscar KMP en este documento debe resaltar todas las siglas KMP.) Tj T*
+() Tj T*
+(4. Algoritmo BM \(Boyer-Moore\)) Tj T*
+(Boyer-Moore compara los caracteres de derecha a izquierda usando la tabla) Tj T*
+(del mal caracter. Boyer-Moore suele saltar varios caracteres a la vez.) Tj T*
+() Tj T*
+(5. Patron repetido y caracteres especiales \(espanol / niño / diseño\):) Tj T*
+(ananabanana ananabanana banana ana - niño diseñador en español.) Tj T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000001795 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1892
+%%EOF
